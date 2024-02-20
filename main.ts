@@ -1,4 +1,5 @@
 import $Http from "@/Axios封装/request"
+
 $Http({
     url: "https://api.mxycn.cn/api/mryy.php",
 }, "get").then(data => {
